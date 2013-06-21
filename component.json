@@ -1,7 +1,7 @@
 {
-  "name": "node-validator",
-  "repo": "nashibao/node-validator",
-  "description": "node-validator component",
+  "name": "validator",
+  "repo": "nashibao/validator",
+  "description": "validator component",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {},
