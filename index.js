@@ -1,12 +1,12 @@
-var node_validator = require('./validator');
+var node_validator = require('./lib/validator');
 
 exports.Validator = node_validator.Validator;
 exports.ValidatorError = node_validator.ValidatorError;
-exports.Filter = require('./filter').Filter;
-exports.validators = require('./validators');
-exports.defaultError = require('./defaultError');
+exports.Filter = require('./lib/filter').Filter;
+exports.validators = require('./lib/validators');
+exports.defaultError = require('./lib/defaultError');
 
-exports.entities = require('./entities');
+exports.entities = require('./lib/entities');
 
 //Quick access methods
 exports.sanitize = exports.convert = function(str) {

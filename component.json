@@ -1,0 +1,20 @@
+{
+  "name": "node-validator",
+  "repo": "nashibao/node-validator",
+  "description": "node-validator component",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "lib/defaultError.js",
+    "lib/entities.js",
+    "lib/filter.js",
+    "lib/validator.js",
+    "lib/validators.js",
+    "lib/xss.js",
+    "index.js"
+  ]
+}
