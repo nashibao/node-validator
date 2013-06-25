@@ -9,6 +9,8 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": [
+    "lib/localization/en.js",
+    "lib/localization/jp.js",
     "lib/defaultError.js",
     "lib/entities.js",
     "lib/filter.js",
